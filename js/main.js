@@ -57,7 +57,31 @@ $(".image1").hover(function(){
     $(this).stop().animate({opacity:1},500)
     $('.text2').fadeOut();
 });
+$(".text3").hide();
+$(".image3").animate({
+  opacity: 1
+});
+$(".image3").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text3').fadeIn();
 
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text3').fadeOut();
+});
+
+$(".text4").hide();
+$(".image4").animate({
+  opacity: 1
+});
+$(".image4").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text4').fadeIn();
+
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text4').fadeOut();
+});
 
 
 });
