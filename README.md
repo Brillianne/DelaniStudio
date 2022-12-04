@@ -23,6 +23,7 @@ I used HTML, CSS, and Bootstrap to design the website. I used Javascript and JQu
 
 ## Support and contact details
 Feel free to contact me with any questions, comments or suggestions concerning the project. Email: brillianchepngeno@gmail.com
+
 ##Github Pages
 The site is live at: https://brillianne.github.io/DelaniStudio/
 ### License
