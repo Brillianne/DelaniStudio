@@ -61,6 +61,7 @@ $(".text3").hide();
 $(".image3").animate({
   opacity: 1
 });
+//third image
 $(".image3").hover(function(){
   $(this).stop().animate({opacity:.4},200);
   $('.text3').fadeIn();
@@ -69,7 +70,7 @@ $(".image3").hover(function(){
   $(this).stop().animate({opacity:1},500)
   $('.text3').fadeOut();
 });
-
+//the fourth
 $(".text4").hide();
 $(".image4").animate({
   opacity: 1
@@ -82,6 +83,57 @@ $(".image4").hover(function(){
   $(this).stop().animate({opacity:1},500)
   $('.text4').fadeOut();
 });
+//the fifth
+$(".text5").hide();
+$(".image5").animate({
+  opacity: 1
+});
+$(".image5").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text5').fadeIn();
 
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text5').fadeOut();
+});
+//the sixth
+$(".text6").hide();
+$(".image6").animate({
+  opacity: 1
+});
+$(".image6").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text6').fadeIn();
+
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text6').fadeOut();
+});
+//the seventh
+$(".text7").hide();
+$(".image7").animate({
+  opacity: 1
+});
+$(".image7").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text7').fadeIn();
+
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text7').fadeOut();
+});
+//the eighth
+$(".text8").hide();
+$(".image8").animate({
+  opacity: 1
+});
+$(".image8").hover(function(){
+  $(this).stop().animate({opacity:.4},200);
+  $('.text8').fadeIn();
+
+}, function() {
+  $(this).stop().animate({opacity:1},500)
+  $('.text8').fadeOut();
+});
 
 });
