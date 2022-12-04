@@ -30,4 +30,34 @@ $(".productdef").click(function(){
   $(".productdef").hide();
   $("#product").show();
 });
+
+//first image
+$(".text1").hide();
+$(".image1").animate({
+  opacity: 1
+});
+$(".image1").hover(function(){
+    $(this).stop().animate({opacity:.4},200);
+    $('.text1').fadeIn();
+  
+  }, function() {
+    $(this).stop().animate({opacity:1},500)
+    $('.text1').fadeOut();
+  });
+  //The second image
+  $(".text2").hide();
+  $(".image2").animate({
+    opacity: 1
+  });
+  $(".image2").hover(function(){
+    $(this).stop().animate({opacity:.4},200);
+    $('.text2').fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $('.text2').fadeOut();
+});
+
+
+
 });
